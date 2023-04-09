@@ -1,0 +1,3 @@
+<?php //PHPUnit%255CFramework%255CTestCase%2523setRunClassInSeparateProcess
+
+return [PHP_INT_MAX, []];

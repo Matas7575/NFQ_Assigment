@@ -1,0 +1,3 @@
+<?php //PHPUnit%255CFramework%255CAssert%2523assertIsNotWritable
+
+return [PHP_INT_MAX, []];

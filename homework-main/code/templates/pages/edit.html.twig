@@ -1,0 +1,55 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+    <main>
+        <div class="py-5 bg-light">
+            <div class="container">
+                <div class="py-5 text-center">
+                <h2>Edit Page:</h2>
+                   
+                
+            
+                 {{ form_start(form) }}
+                    {{ form_widget(form) }}
+<!--
+                    <button type="submit" class="uppercase mt15 bg-blue-500 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-4xl">
+                    Submit Changes
+                    </button>
+-->
+
+                 {{ form_end(form) }}
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+<!--
+                <img class="img-fluid" src="{{ article.image }}" alt="">
+
+                <div class="lead mb-4 py-5">{{ article.text | raw }}</div>
+                -->
+                
+                
+                <!--
+                Edit title: 
+                <input type="text" name="editTitle" value="{{article.title}}" size="40"> <br>
+                -->
+            <!--
+                Edit text: <input type="text" name="editText" value="{{article.text}}">   <br>
+            -->
+            <!--
+                <h2>Edit Text:</h2>
+                <div  class="lead mb-4 py-5" contenteditable="true">{{ article.text | raw }}</div>
+                <input type="button" name="editSubmit" value="submit"> <br>
+
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <a href="{{ path('home') }}" type="button" class="btn btn-secondary btn-lg px-4 gap-3">Back</a>
+                </div>
+                -->
+{% endblock %}
+
+
+
+            

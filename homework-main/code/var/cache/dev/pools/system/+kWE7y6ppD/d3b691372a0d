@@ -1,0 +1,3 @@
+<?php //%5BC%5DPHPUnit%255CFramework%255CAssert%2523assertIsNotInt
+
+return [PHP_INT_MAX, 1681066743];
